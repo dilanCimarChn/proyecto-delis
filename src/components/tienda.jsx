@@ -9,7 +9,7 @@ function Tienda(props) {
       <div className='home'>
         <button>mundo</button>
         <button>hello</button>
-        <button>world</button>
+        <button>papito rey</button>
       </div>
     </section>
   );
