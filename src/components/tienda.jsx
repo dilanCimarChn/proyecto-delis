@@ -1,7 +1,7 @@
 import React from 'react';
 import '/styles/home.css';
 
-function Home(props) {
+function Tienda(props) {
   const more = props.more;
 
   return (

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Home from './components/home'
+import Tienda from './components/tienda'
 
 import './App.css'
 
@@ -9,6 +10,8 @@ function App() {
   return (
     
     <Home home/>
+
+    
   )
 }
 
