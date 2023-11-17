@@ -1,18 +1,14 @@
+// Tienda.js
 import React from 'react';
-import '/styles/home.css';
 
-function Tienda(props) {
-  const more = props.more;
-
+const Tienda = ({ tienda }) => {
   return (
-    <section className='home' style={{ backgroundImage: 'url(/images/background.jpg)' }}>
-      <div className='home'>
-        <button>mundo</button>
-        <button>hello</button>
-        <button>papito rey</button>
-      </div>
-    </section>
+    <div>
+      <h2>{tienda.title}</h2>
+      <p>{tienda.description}</p>
+      <img src={tienda.imgUrl} alt={tienda.title} />
+    </div>
   );
-}
+};
 
-export default Home;
+export default Tienda;
