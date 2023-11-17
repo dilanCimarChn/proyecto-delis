@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import Card from './components/card';  // Ajusta el nombre del componente Card según tu estructura de archivos
 import Menu from './components/menu';  // Ajusta el nombre del componente
@@ -17,6 +18,24 @@ function App() {
       ))}
     </div>
   );
+=======
+import { useState } from 'react';
+import Home from './components/home';
+import Barra from './components/barra';
+import SelectPP from './components/selectPP';
+import './App.css'
+
+function App() {
+
+
+  return (
+    <>
+      <Home/>
+      <Barra />
+      <SelectPP />
+    </>
+  )
+>>>>>>> f9506f904b9c80559955b31ab3ed005d5983f2e1
 }
 
 export default App;
