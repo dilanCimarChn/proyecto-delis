@@ -5,7 +5,7 @@ function Home(props) {
     const more = props.more;
   
     return (
-      <section> </section>
+      <section></section>
     );
   }
   
