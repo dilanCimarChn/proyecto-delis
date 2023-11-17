@@ -1,13 +1,17 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import Barra from './components/barra'
+import SelectPP from './components/selectPP'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    
+    <>
+      <Barra />
+      <SelectPP />
+    </>
   )
 }
 
