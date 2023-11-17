@@ -1,15 +1,29 @@
-import { useState } from 'react'
-import Home from './components/home'
+
 
 import './App.css'
-
+import FondoT from './components/FondoT'
+import {fondoT} from './assets/APIfondo'
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+  return(
+    <>
+    {
+      fondoT.map(fondoo=>{
+        return(
+          
+          <FondoT fondoT={fondoo}>
+          
+          
+          </FondoT>
+        )
+      })
+    } 
+      
+      
+    </>
     
-    <Home home/>
+    
   )
+  
 }
 
 export default App
