@@ -6,11 +6,8 @@ function Anuncio(props) {
   
     return (
       <section>
-        <div>
-          <h2>Best seller of the week</h2>
-        </div>
-
-        <div>
+        <div className='ad'>
+          <p>Best seller of the week</p>
           <h1>Iced Coffee Sweet Heaven</h1>
         </div>
 
